@@ -7,7 +7,7 @@ export default function NavBar(props) {
     <div className="eqi-container">
       <p><Link to={"/"}>WELCOME</Link></p>
       <p><Link to={"/publishers"}>PUBLISHERS</Link></p>
-      <p>NITI PATEL</p>
+      <div id="name-container"><Link to={"/"}><p id="name">NITI   PATEL</p></Link></div>
       <p><Link to={"/careers"}>CAREERS</Link></p>
       <p><Link to={"/contact"}>CONTACT</Link></p>
     </div>

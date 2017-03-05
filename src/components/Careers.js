@@ -4,7 +4,7 @@ import BackgroundImage from './BackgroundImage'
 export default function Careers(props) {
   return (
     <div>
-      <div id="unique-pic careers"><BackgroundImage link="/careers.jpg"/></div>
+      <BackgroundImage link="/careers.jpg"/>
       <p className="title">Experience</p>
       <div className="job-text">
         <p className="job">Account Manager</p>
