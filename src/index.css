@@ -137,7 +137,10 @@ a:hover {
 .eqi-container #name {
   height: 1.75em;
   line-height: 1em;
+}
 
+#bigger-text {
+  font-size: 2em;
 }
 
 #name {

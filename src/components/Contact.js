@@ -7,8 +7,8 @@ export default function Contact(props) {
       <BackgroundImage link="/contact.jpg"/>
       <p className="title">Contact Me</p>
       <div className="white-block">
-        <p className="body-header"><strong>Get in touch</strong></p>
-        <p className="body-text">Feel free to email me at nitimaheshpatel@gmail.com with any questions or comments</p>
+        <p className="body-header" id="bigger-text">Get in touch</p>
+        <p className="body-text">nitimaheshpatel@gmail.com </p>
       </div>
     </div>
   )
