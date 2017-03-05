@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        {!this.props.children ? <Welcome /> : null }
+        {!this.props.children ? < Welcome /> : null }
         {this.props.children}
       </div>
     );

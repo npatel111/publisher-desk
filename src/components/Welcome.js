@@ -1,7 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react'
+import BackgroundImage from './BackgroundImage'
+import {  Link} from 'react-router'
+import NavBar from './NavBar'
+
 
 export default function Welcome(props) {
+
   return (
-    <div> Welcome to this app! </div>
+    <div>
+      <div >
+        <BackgroundImage link="/welcome.gif"/>
+        <div className="text">
+          <p>Welcome</p>
+          <p>Thanks for inviting me to your office! I was so excited that I built a small site to showcase, what I can do for you.</p>
+        </div>
+      </div>
+    </div>
   )
 }
