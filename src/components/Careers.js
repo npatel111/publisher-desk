@@ -1,17 +1,24 @@
 import React from 'react'
+import BackgroundImage from './BackgroundImage'
 
 export default function Careers(props) {
   return (
     <div>
-      <h1>Past Experience</h1>
-      <p>Account Manager</p>
-      <p>Location: New York, United States</p><p>Full-time</p>
-      <p>Account Coordinator</p>
-      <p>Location: New York, United States</p><p>Full-time</p>
-      <p>Sales Planner</p>
-      <p>Location: New York, United States</p><p>Full-time</p>
-      <p>Sales Strategy</p>
-      <p>Location: Texas, United States</p><p>Full-time</p>
+      <div id="unique-pic careers"><BackgroundImage link="/careers.jpg"/></div>
+      <p className="title">Experience</p>
+      <div className="job-text">
+        <p className="job">Account Manager</p>
+        <p className="job-body-text">Location: New York, United States</p>
+        <hr />
+        <p className="job">Account Coordinator</p>
+        <p className="job-body-text">Location: New York, United States</p>
+        <hr />
+        <p className="job">Sales Planner</p>
+        <p className="job-body-text" >Location: New York, United States</p>
+        <hr />
+        <p className="job">Sales Strategist</p>
+        <p className="job-body-text">Location: Texas, United States</p>
+      </div>
     </div>
   )
 }

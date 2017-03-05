@@ -10,10 +10,8 @@ export default function Welcome(props) {
     <div>
       <div >
         <BackgroundImage link="/welcome.gif"/>
-        <div className="text">
-          <p>Welcome</p>
-          <p>Thanks for inviting me to your office! I was so excited that I built a small site to showcase, what I can do for you.</p>
-        </div>
+        <p className="title">Welcome</p>
+        <p className="body-text">Thanks for inviting me to your office! I was so excited that I built a small site to showcase, what I can do for you.</p>
       </div>
     </div>
   )

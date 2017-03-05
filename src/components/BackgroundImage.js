@@ -1,14 +1,14 @@
 import React from 'react'
 
 export default function BackgroundImage(props) {
-  debugger
+  // debugger
   // const divStyle={
   //   backgroundImage: `url(${props.link})`
   // }
-  debugger
+  const pic = `${props.link}`
   return (
     <div className="big" >
-      <img src="/welcome.gif" alt="" />
+      <img src={pic} alt="" />
     </div>
   )
 }
