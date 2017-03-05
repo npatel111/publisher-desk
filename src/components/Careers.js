@@ -6,7 +6,7 @@ export default function Careers(props) {
     <div>
       <BackgroundImage link="/careers.jpg"/>
       <p className="title">Experience</p>
-      <div className="job-text">
+      <div className="white-block">
         <p className="job">Account Manager</p>
         <p className="job-body-text">Location: New York, United States</p>
         <hr />

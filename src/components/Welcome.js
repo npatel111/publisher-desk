@@ -11,7 +11,7 @@ export default function Welcome(props) {
       <div >
         <BackgroundImage link="/welcome.gif"/>
         <p className="title">Welcome</p>
-        <p className="body-text">Thanks for inviting me to your office! I was so excited that I built a small site to showcase, what I can do for you.</p>
+        <p className="body-text">Thanks for inviting me to your office! I was so psyched that I built a site to show what I can do for you.</p>
       </div>
     </div>
   )
