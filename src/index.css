@@ -96,6 +96,14 @@ hr {
 
 }
 
+a {
+  color: white;
+  text-decoration: none
+}
+
+a:hover {
+  color: #fa7900;
+}
 
 .eqi-container {
   /*border: 10px solid black;*/
