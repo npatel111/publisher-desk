@@ -5,10 +5,9 @@ import NavBar from './NavBar'
 
 
 export default function Welcome(props) {
-
   return (
     <div>
-      <div >
+      <div>
         <BackgroundImage link="/welcome.gif"/>
         <p className="title">Welcome</p>
         <div className="white-block">

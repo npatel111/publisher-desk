@@ -1,1 +1,1 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+A fun site similar to the company site, using Javascript with React, HTML, and CSS.
