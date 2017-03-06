@@ -75,6 +75,11 @@ p {
 
 }
 
+  .codepen {
+  margin-left: 25%;
+  margin-right: 25%;
+  }
+  
 .job-body-text {
   color: black;
   padding-left: 6em;
