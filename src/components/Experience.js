@@ -1,10 +1,10 @@
 import React from 'react'
 import BackgroundImage from './BackgroundImage'
 
-export default function Careers(props) {
+export default function Experience(props) {
   return (
     <div>
-      <BackgroundImage link="/careers.jpg"/>
+      <BackgroundImage link="/ny.jpg"/>
       <p className="title">Experience</p>
       <div className="white-block">
         <p className="job">Account Manager</p>
